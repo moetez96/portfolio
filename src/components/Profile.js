@@ -22,7 +22,7 @@ const Profile = () => {
               </ProfileDetailTagline>
             </ProfileDetailRole>
             <ProfileOptions>
-              <a href="cv/CV-Moetez-Ayari.pdf" target="_blank" download>
+              <a href="/assets/cv/CV-Moetez-Ayari.pdf" target="_blank" download>
                 <button className="btn highlighted-btn"> Download CV </button>
               </a>
             </ProfileOptions>
