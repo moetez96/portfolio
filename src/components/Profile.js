@@ -11,8 +11,7 @@ const Profile = () => {
           <div
             className="profile-details"
             data-aos="fade-right"
-            data-aos-offset="300"
-s            data-aos-duration="1200"
+            data-aos-duration="1200"
           >
             <ProfileDetailName>
               <span className="primary-text">

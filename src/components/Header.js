@@ -149,7 +149,7 @@ const Navigation = styled.div`
 .navigation__content #hidden {
   position: absolute;
   left: 0px;
-  top: 75px;
+  top: 49px;
   width: 100%;
   background: rgba(15, 25, 34,0.5);
   display: flex;
