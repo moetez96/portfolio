@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap");
+
+.container_project {
+  position: relative;
+  max-height: 280px;
+  max-width: 300px;
+  background: rgba(0, 150, 255, 0.8);
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 150, 255, 0.8);
+  transition: transform 0.2s linear;
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sources {
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+@media screen and (max-width: 940px) {
+  .paragraph1 {
+    font-size: 0.8em;
+  }
+  .header3 {
+    font-size: 0.83em;
+    font-weight: bolder;
+  }
+  .paragraph {
+    font-size: 0.6em;
+    font-weight: 100;
+  }
+  .project__stack-item {
+    font-size: 15px;
+  }
+}
+.container_project:hover {
+  transform: translateY(-7px);
+}
+.navigation__social-icon:hover {
+  cursor: pointer;
+  transform: translateY(-7px);
+}
+.project__stack {
+  margin-left: -40px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.sub_div {
+  bottom: 0px;
+  margin-top: 28px;
+  background: rgba(15, 25, 34, 0.2);
+}
+.header3 {
+  background: rgba(15, 25, 34, 0.2);
+}
+.content_project {
+  font-family: "Poppins SemiBold";
+}
+
+.navigation__social-icon {
+  color: white;
+  font-size: 1.9em;
+  margin-top: -0.08em;
+  margin-left: 0.2em;
+}
+.project__stack-item {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.paragraph1 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  font-weight: 400;
+}
