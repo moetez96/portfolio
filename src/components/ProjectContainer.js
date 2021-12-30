@@ -9,7 +9,11 @@ const ProjectContainer = ({ project }) => {
   };
   console.log(open);
   return (
-    <div class="container_project" data-aos="flip-up" data-aos-duration="2000">
+    <div
+      class="container_project"
+      data-aos="fade-up-left"
+      data-aos-duration="1500"
+    >
       <div class="content_project">
         <div className="headercontainer">
           <h3 className=" header3">{project.name}</h3>
