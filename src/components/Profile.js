@@ -8,7 +8,12 @@ const Profile = () => {
     <Element name="profile">
       <ProfileContainer>
         <ProfileParent>
-          <div className="profile-details">
+          <div
+            className="profile-details"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <ProfileDetailName>
               <span className="primary-text">
                 {" "}
@@ -28,7 +33,11 @@ const Profile = () => {
             </ProfileOptions>
           </div>
           <ProfilePicture>
-            <div className="profile-picture-background"></div>
+            <div
+              className="profile-picture-background"
+              data-aos="zoom-in"
+              data-aos-duration="900"
+            ></div>
           </ProfilePicture>
         </ProfileParent>
       </ProfileContainer>

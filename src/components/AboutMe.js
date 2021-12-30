@@ -32,7 +32,13 @@ const AboutMe = () => {
       <AboutSection>
         <div className="split">
           <div className="container">
-            <h1 className="headline">About Me</h1>
+            <h1
+              className="headline"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+            >
+              About Me
+            </h1>
             <span style={{ color: "(--white)" }}>
               {" "}
               <h2>
@@ -54,7 +60,11 @@ const AboutMe = () => {
                 />*/}
               </h2>
             </span>
-            <p className="paragraph">
+            <p
+              className="paragraph"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               My name is Moetez Ayari, I am 25 years old, I have a computer
               science degree (bachelor of computer science). I am currently a
               third-year engineering student at ESPRIT. My degree emphasis is
@@ -63,11 +73,21 @@ const AboutMe = () => {
           </div>
           <div class="container2">
             <div className="section_skills" id="skills">
-              <h2 className="headline">Skills</h2>
+              <h2
+                className="headline"
+                data-aos="fade-up-left"
+                data-aos-duration="1000"
+              >
+                Skills
+              </h2>
               <div>
                 <ul className="skills__list">
                   {skills.map((skill) => (
-                    <li className="skills__list-item btn1 btn1--plain">
+                    <li
+                      className="skills__list-item btn1 btn1--plain"
+                      data-aos="fade-up-right"
+                      data-aos-duration="1000"
+                    >
                       {skill}
                     </li>
                   ))}

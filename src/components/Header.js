@@ -10,7 +10,12 @@ const Header = () => {
   };
   return (
     <Navigation>
-      <div className="container ">
+      <div
+        className="container "
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
         <a className="navigation__brand" href="./">
           <strong>My</strong> Portfolio
         </a>

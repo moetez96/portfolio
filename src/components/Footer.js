@@ -3,7 +3,12 @@ import styled from "styled-components";
 const Footer = () => {
   return (
     <FooterParent>
-      <img src={"/assets/shape-bg.png"} alt="shape"></img>
+      <img
+        src={"/assets/shape-bg.png"}
+        alt="shape"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      ></img>
     </FooterParent>
   );
 };

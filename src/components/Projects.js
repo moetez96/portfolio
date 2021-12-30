@@ -94,7 +94,9 @@ const Projects = () => {
   return (
     <Element name="projects">
       <ProjectsContainer>
-        <h1 className="headline">Projects</h1>
+        <h1 className="headline" data-aos="fade-down" data-aos-duration="1500">
+          Projects
+        </h1>
         <div className="projects">
           {projects.map((project) => (
             <ProjectContainer key={project.id} project={project} />

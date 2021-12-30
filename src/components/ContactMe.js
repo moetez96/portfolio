@@ -120,8 +120,15 @@ const ContactMe = () => {
       <ContactSection>
         <div>
           <div className="container">
-            <h1>Contact Me</h1>
-            <p className="paragraph">
+            <h1 data-aos="fade-down" data-aos-duration="1500">
+              Contact Me
+            </h1>
+            <p
+              className="paragraph"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500"
+            >
               Thank you for visiting my portfolio, I hope you liked what you
               saw. for any further information, you can contact me via this
               email below or via this form.
@@ -134,7 +141,12 @@ const ContactMe = () => {
               <i className="far fa-envelope"></i> moetez.ayari@esprit.tn
             </a>
           </div>
-          <div className="container">
+          <div
+            className="container"
+            data-aos="fade-up"
+            data-aos="zoom-out-down"
+            data-aos-duration="1700"
+          >
             <div className="row">
               <div className="col-12 text-center">
                 <div className="contactForm">
