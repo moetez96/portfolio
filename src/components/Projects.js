@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import { useNavigate } from "react-router-dom";
 import ProjectContainer from "./ProjectContainer";
 import { Element } from "react-scroll";
 
