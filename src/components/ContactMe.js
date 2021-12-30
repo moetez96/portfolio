@@ -122,9 +122,9 @@ const ContactMe = () => {
           <div className="container">
             <h1>Contact Me</h1>
             <p className="paragraph">
-              Thank you for visiting my portfolio i hope you liked what you saw,
-              for any further information you can send me contact me via this
-              email below or submitting this form.
+              Thank you for visiting my portfolio, I hope you liked what you
+              saw. for any further information, you can contact me via this
+              email below or via this form.
             </p>
             <a
               className="paragraph paragraph--is-light paragraph--is-clickable paragraph--is-not-spaced"

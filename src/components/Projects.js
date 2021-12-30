@@ -130,7 +130,6 @@ const ProjectsContainer = styled.div`
     }
   }
   .projects {
-    max-height: 1100px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0 auto;
@@ -140,8 +139,6 @@ const ProjectsContainer = styled.div`
     justify-content: center;
     align-content: space-between;
     gap: 20px 20px;
-    @media screen and (max-width: 700px) {
-    }
   }
 `;
 

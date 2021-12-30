@@ -20,12 +20,16 @@
   right: 0;
   bottom: 0;
 }
+
 @media screen and (max-width: 940px) {
+  .headercontainer {
+    max-height: 75px;
+  }
   .paragraph1 {
     font-size: 0.8em;
   }
   .header3 {
-    font-size: 0.83em;
+    font-size: 1.4em;
     font-weight: bolder;
   }
   .paragraph {
@@ -54,8 +58,12 @@
   margin-top: 28px;
   background: rgba(15, 25, 34, 0.2);
 }
-.header3 {
+.headercontainer {
+  height: 75px;
   background: rgba(15, 25, 34, 0.2);
+  line-height: 100px;
+  text-align: center;
+  padding: 5px;
 }
 .content_project {
   font-family: "Poppins SemiBold";

@@ -55,10 +55,10 @@ const AboutMe = () => {
               </h2>
             </span>
             <p className="paragraph">
-              My name is Moetez Ayari i am 25 years old, I have computer science
-              degree (bachelor of computer science) I am currently a third-year
-              engineering student at ESPRIT. My degree emphasis is Software
-              Engineering and web development.
+              My name is Moetez Ayari, I am 25 years old, I have a computer
+              science degree (bachelor of computer science). I am currently a
+              third-year engineering student at ESPRIT. My degree emphasis is
+              Software Engineering and web development.
             </p>
           </div>
           <div class="container2">

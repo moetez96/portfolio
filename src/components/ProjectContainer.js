@@ -11,7 +11,9 @@ const ProjectContainer = ({ project }) => {
   return (
     <div class="container_project">
       <div class="content_project">
-        <h3 className=" header3">{project.name}</h3>
+        <div className="headercontainer">
+          <h3 className=" header3">{project.name}</h3>
+        </div>
         <p className="paragraph1">{project.description}</p>
         <ul className="project__stack">
           {project.stack.map((item) => (
