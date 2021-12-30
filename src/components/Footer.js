@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import shape from "../assets/home/shape-bg.png";
 const Footer = () => {
   return (
     <FooterParent>
-      <img src={shape} alt="shape"></img>
+      <img src={"/assets/shape-bg.png"} alt="shape"></img>
     </FooterParent>
   );
 };

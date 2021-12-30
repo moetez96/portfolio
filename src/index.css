@@ -2,49 +2,49 @@
   font-family: "Poppins Medium";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/Poppins-Medium.ttf");
+  src: url("/public/assets/fonts/Poppins-Medium.ttf");
 }
 
 @font-face {
   font-family: "Poppins Regular";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/Poppins-Regular.ttf");
+  src: url("/public/assets/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: "Poppins SemiBold";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+  src: url("/public/assets/fonts/Poppins-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "Poppins Bold";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/Poppins-Bold.ttf");
+  src: url("/public/assets/fonts/Poppins-Bold.ttf");
 }
 
 @font-face {
   font-family: "Poppins ExtraBold";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+  src: url("/public/assets/fonts/Poppins-ExtraBold.ttf");
 }
 
 @font-face {
   font-family: "Poppins Light";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/Poppins-Light.ttf");
+  src: url("/public/assets/fonts/Poppins-Light.ttf");
 }
 
 @font-face {
   font-family: "Poppins Thin";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/Poppins-Thin.ttf");
+  src: url("/public/assets/fonts/Poppins-Thin.ttf");
 }
 
 * {
@@ -133,7 +133,7 @@ body ::-webkit-scrollbar-thumb {
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("./assets//home/me.jpg");
+  background-image: url("/public/assets/me.jpg");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;

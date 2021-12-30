@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Typical from "react-typical";
 import styled from "styled-components";
-import ReactScrollWheelHandler from "react-scroll-wheel-handler";
-import { useNavigate } from "react-router-dom";
 import { Element } from "react-scroll";
 
 const Profile = () => {
@@ -24,7 +22,7 @@ const Profile = () => {
               </ProfileDetailTagline>
             </ProfileDetailRole>
             <ProfileOptions>
-              <a href="#" download="#">
+              <a href="cv/CV-Moetez-Ayari.pdf" target="_blank" download>
                 <button className="btn highlighted-btn"> Download CV </button>
               </a>
             </ProfileOptions>
