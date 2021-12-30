@@ -10,12 +10,7 @@ const Header = () => {
   };
   return (
     <Navigation>
-      <div
-        className="container "
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1000"
-      >
+      <div className="container " data-aos="zoom-in" data-aos-duration="1200">
         <a className="navigation__brand" href="./">
           <strong>My</strong> Portfolio
         </a>

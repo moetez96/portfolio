@@ -12,7 +12,7 @@ const Profile = () => {
             className="profile-details"
             data-aos="fade-right"
             data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+s            data-aos-duration="1200"
           >
             <ProfileDetailName>
               <span className="primary-text">
@@ -36,7 +36,7 @@ const Profile = () => {
             <div
               className="profile-picture-background"
               data-aos="zoom-in"
-              data-aos-duration="900"
+              data-aos-duration="1200"
             ></div>
           </ProfilePicture>
         </ProfileParent>
