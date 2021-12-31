@@ -41,9 +41,9 @@ const AboutMe = () => {
             </h1>
             <span style={{ color: "(--white)" }}>
               {" "}
-              <h2>
+              <h2 className="header2">
                 {" "}
-                {/*<Typical
+                <Typical
                   loop={Infinity}
                   steps={[
                     "Computer Science Engineer",
@@ -57,7 +57,7 @@ const AboutMe = () => {
                     "MEAN Stack Developer",
                     1000,
                   ]}
-                />*/}
+                />
               </h2>
             </span>
             <p
@@ -189,6 +189,12 @@ const AboutSection = styled.div`
         color: white;
       }
     }
+    .header2 {
+      @media screen and (max-width: 650px) {
+        font-weight: 700;
+        font-size: 25px;
+      }
+    }
     .headline {
       font-weight: 500;
       font-size: 60px;
@@ -200,8 +206,6 @@ const AboutSection = styled.div`
       @media screen and (max-width: 650px) {
         font-weight: 700;
         font-size: 40px;
-        line-height: 74.4px;
-        color: white;
       }
     }
   }
