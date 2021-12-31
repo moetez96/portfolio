@@ -41,7 +41,11 @@ const AboutMe = () => {
             </h1>
             <span style={{ color: "(--white)" }}>
               {" "}
-              <h2 className="header2">
+              <h2
+                className="header2"
+                data-aos="fade-down"
+                data-aos-duration="1800"
+              >
                 {" "}
                 <Typical
                   loop={Infinity}
